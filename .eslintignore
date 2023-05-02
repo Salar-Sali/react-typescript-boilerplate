@@ -1,0 +1,11 @@
+/node_modules
+/public
+/dist
+vite.config.ts
+.eslintrc.js
+/build
+/src/vite-env.d.ts
+tailwind.config.cjs
+postcss.config.cjs
+fileMock.js
+jest.config.js
