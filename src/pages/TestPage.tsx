@@ -1,4 +1,5 @@
 import { Route, Routes, useNavigate } from "react-router-dom";
+import TestpageComponent from "../components/testPage/TestpageComponent";
 import NestedTest from "./NestedTest";
 
 function TestPage() {
@@ -6,6 +7,7 @@ function TestPage() {
   return (
     <div className="text-center flex flex-col gap-y-3 just justify-center items-center h-screen">
       <p className="text-4xl">Test page</p>
+      <TestpageComponent />
       <button
         onClick={() => navigate("1")}
         className="py-1 px-4 border border-black rounded-md"
